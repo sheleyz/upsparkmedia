@@ -1,8 +1,8 @@
 {
-  "name": "up-spark-media",
-  "version": "1.0.0",
+  "name": "upsparkmedia",
+  "version": "2.0.0",
   "private": true,
-  "description": "up-spark-media",
+  "description": "UpSpark Media",
   "author": "sheleyz",
   "keywords": [
     "gatsby"

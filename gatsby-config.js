@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `UpSpark Media`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://upsparkmedia.com/`
   },
   plugins: ["gatsby-plugin-netlify-cms"]
 };
