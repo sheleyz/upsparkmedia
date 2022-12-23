@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 
 const IndexPage = () => {
     return (
-        <Layout pageTitle="UpSpark Media">
+        <Layout pageTitle="Home">
             <p>Hello World</p>
         </Layout>
     );
@@ -11,4 +11,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>UpSpark Media</title>;
+export const Head = () => <title>UpSpark Media - YouTube SEO + Web Design</title>;

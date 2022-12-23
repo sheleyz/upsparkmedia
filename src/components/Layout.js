@@ -1,16 +1,7 @@
+import "bootstrap/dist/css/bootstrap.min.css"
 import * as React from "react";
 import { Link } from "gatsby";
-
-const pageStyles = {
-    color: "#232129",
-    padding: 96,
-    fontFamily: "-apple-system, Roboto, sans-serif, serif"
-};
-const headingStyles = {
-    marginTop: 0,
-    marginBottom: 64,
-    maxWidth: 320
-};
+import "../index.scss"
 
 const Layout = ({ pageTitle, children }) => {
     return (
@@ -22,8 +13,8 @@ const Layout = ({ pageTitle, children }) => {
                     </li>
                 </ul>
             </nav>
-            <main style={pageStyles}>
-                <h1 style={headingStyles}>{pageTitle}</h1>
+            <main>
+                <h1>{pageTitle}</h1>
                 {children}
             </main>
         </div>
