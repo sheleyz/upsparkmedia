@@ -24,6 +24,21 @@
     background-color: var(--upspark-secondary);
 }
 
+.btn-outline-brand-primary {
+    color: var(--upspark-primary) !important;
+    border-color: var(--upspark-primary) !important;
+
+    &:hover, &:active {
+        color: var(--upspark-secondary) !important;
+        border-color: var(--upspark-primary) !important;
+        background-color: var(--upspark-primary) !important;
+    }
+
+    &:focus, &:focus-visible {
+        box-shadow: 0 0 0 0.25rem var(--upspark-secondary-dark);
+    }
+}
+
 .navbar {
     --bs-navbar-nav-link-padding-x: 1rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -46,4 +61,14 @@
             --bs-nav-link-padding-y: 0rem;
         }
     }
+}
+
+.text-grey {
+    color: var(--upspark-grey);
+}
+
+.img-cover {
+	width: 100% !important;
+	height: 400px !important;
+	object-fit: cover;
 }
