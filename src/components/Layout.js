@@ -1,22 +1,13 @@
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 import * as React from "react";
-import { Link } from "gatsby";
-import "../index.scss"
+import "../index.scss";
+import Header from "./Header";
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ children }) => {
     return (
         <div>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                </ul>
-            </nav>
-            <main>
-                <h1>{pageTitle}</h1>
-                {children}
-            </main>
+            <Header />
+            <main>{children}</main>
         </div>
     );
 };
