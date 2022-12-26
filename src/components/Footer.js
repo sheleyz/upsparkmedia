@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 
-function Footer() {
+const Footer = () => {
     return (
         <footer className="bg-brand-secondary py-5 text-white">
             <div className="container px-4 px-lg-5 fw-semibold">

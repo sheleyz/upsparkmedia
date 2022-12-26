@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 // Images
 import Logo from "../images/upsparkmedia/upspark-media-logo.png";
 
-function Header() {
+const Header = () => {
     return (
         <Navbar bg="brand-secondary" expand="md" className="py-3" variant="dark" fixed="top">
             <Container className="px-4 px-lg-5">

@@ -168,3 +168,12 @@ hr.divider {
         color: var(--upspark-primary) !important;
     }
 }
+
+.portfolio-caption-links {
+    display: flex;
+    justify-content: center;
+}
+
+.centerImage {
+    object-position: center !important;
+}

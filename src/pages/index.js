@@ -1,9 +1,10 @@
 import * as React from "react";
-import Layout from "../components/Layout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faLaptop } from "@fortawesome/free-solid-svg-icons";
 import { faUserGear } from "@fortawesome/free-solid-svg-icons";
+import Layout from "../components/Layout";
+import PortfolioItem from "../components/PortfolioItem";
 
 // Images
 import Laptop from "../images/laptop.jpg";
@@ -81,52 +82,44 @@ const IndexPage = () => {
                         <hr className="divider" />
                     </div>
                     <div className="row mt-5">
-                        <div className="col-lg-4 col-sm-12 mb-4">
-                            <div className="portfolio-item">
-                                <img className="img-fluid" src={RoughTerrainPortfolio} alt="Rough Terrain Studios YouTube" />
-                                <div className="portfolio-caption">
-                                    <div className="portfolio-caption-heading">Rough Terrain Studios</div>
-                                    <div className="portfolio-caption-subheading text-muted">YouTube SEO</div>
-                                    <div className="portfolio-caption-subheading text-muted">
-                                        <a href="https://www.youtube.com/channel/UCh16fC0-zzcdRHcTWKYJurg" target="_blank" rel="noopener noreferrer">
-                                            YouTube Channel
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-12 mb-4">
-                            <div className="portfolio-item">
-                                <img className="img-fluid" src={CSFPortfolio} alt="CSF IUPUI Website" />
-                                <div className="portfolio-caption">
-                                    <div className="portfolio-caption-heading">Christian Student Fellowship</div>
-                                    <div className="portfolio-caption-subheading text-muted">YouTube SEO + Web Design</div>
-                                    <div className="portfolio-caption-subheading text-muted">
-                                        <a href="https://www.youtube.com/channel/UC6e76TemyDULPBQ-9Kc2zMw" target="_blank" rel="noopener noreferrer">
-                                            YouTube Channel
-                                        </a>{" "}
-                                        |{" "}
-                                        <a href="https://csfiupui.com/" target="_blank" rel="noopener noreferrer">
-                                            Website
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-12 mb-4">
-                            <div className="portfolio-item">
-                                <img className="img-fluid" src={CGChoirsPortfolio} alt="Center Grove Choirs Logo" style={{ objectPosition: "center" }} />
-                                <div className="portfolio-caption">
-                                    <div className="portfolio-caption-heading">Center Grove Choirs</div>
-                                    <div className="portfolio-caption-subheading text-muted">Web Maintenance</div>
-                                    <div className="portfolio-caption-subheading text-muted">
-                                        <a href="https://centergrovechoirs.org/" target="_blank" rel="noopener noreferrer">
-                                            Website
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <PortfolioItem
+                            imgURL={RoughTerrainPortfolio}
+                            heading={"Rough Terrain Studios"}
+                            subheading={"YouTube SEO"}
+                            links={[
+                                {
+                                    link: "https://www.youtube.com/channel/UCh16fC0-zzcdRHcTWKYJurg",
+                                    text: "YouTube Channel"
+                                }
+                            ]}
+                        />
+                        <PortfolioItem
+                            imgURL={CSFPortfolio}
+                            heading={"Christian Student Fellowship"}
+                            subheading={"YouTube SEO + Web Design"}
+                            links={[
+                                {
+                                    link: "https://www.youtube.com/channel/UC6e76TemyDULPBQ-9Kc2zMw",
+                                    text: "YouTube Channel"
+                                },
+                                {
+                                    link: "https://csfiupui.com/",
+                                    text: "Website"
+                                }
+                            ]}
+                        />
+                        <PortfolioItem
+                            imgURL={CGChoirsPortfolio}
+                            heading={"Center Grove Choirs"}
+                            subheading={"Web Maintenance"}
+                            links={[
+                                {
+                                    link: "https://centergrovechoirs.org/",
+                                    text: "Website"
+                                }
+                            ]}
+                            centerImage={true}
+                        />
                     </div>
                 </div>
             </section>
