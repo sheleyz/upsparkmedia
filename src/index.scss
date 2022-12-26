@@ -28,6 +28,18 @@
     background-color: var(--upspark-light);
 }
 
+.text-grey {
+    color: var(--upspark-grey);
+}
+
+.text-brand-light {
+    color: var(--upspark-light);
+}
+
+.text-brand-secondary {
+    color: var(--upspark-secondary);
+}
+
 .btn-outline-brand-primary {
     color: var(--upspark-primary) !important;
     border-color: var(--upspark-primary) !important;
@@ -69,10 +81,6 @@
     }
 }
 
-.text-grey {
-    color: var(--upspark-grey);
-}
-
 .img-cover {
     width: 100% !important;
     height: 400px !important;
@@ -90,4 +98,34 @@ hr.divider {
     margin: 1.5rem auto;
     background-color: var(--upspark-primary);
     opacity: 1;
+}
+
+.portfolio-item {
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+
+    img {
+        width: 100%;
+        height: 200px !important;
+        object-fit: cover;
+        object-position: left top;
+    }
+}
+
+.portfolio-caption {
+    padding: 1.5rem 1.11rem;
+    text-align: center;
+    background-color: #fff;
+
+    a {
+        color: var(--upspark-secondary);
+    }
+}
+
+.portfolio-caption-heading {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0;
 }

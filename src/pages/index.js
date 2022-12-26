@@ -7,6 +7,9 @@ import { faUserGear } from "@fortawesome/free-solid-svg-icons";
 
 // Images
 import Laptop from "../images/laptop.jpg";
+import RoughTerrainPortfolio from "../images/portfolio/Rough-Terrain-Studios-YouTube-cropped.jpg";
+import CSFPortfolio from "../images/portfolio/CSF-IUPUI-Website-cropped.jpg";
+import CGChoirsPortfolio from "../images/portfolio/CG-Choirs-Logo.jpg";
 
 const IndexPage = () => {
     return (
@@ -36,7 +39,7 @@ const IndexPage = () => {
             {/* Services Section */}
             <section className="page-section bg-brand-light" id="services">
                 <div className="container px-4 px-lg-5">
-                    <h2 className="text-center mt-0">Services</h2>
+                    <h2 className="text-center mt-0 text-brand-secondary">Services</h2>
                     <hr className="divider" />
                     <div className="row gx-4 gx-lg-5">
                         <div className="col-lg-4 col-md-4 text-center">
@@ -64,6 +67,64 @@ const IndexPage = () => {
                                 </div>
                                 <h3 className="h4 mb-2">Website Maintenance</h3>
                                 <p className="mb-0">Have your website maintained through consistent content updates and general site improvements</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Portfolio Section */}
+            <section className="page-section bg-brand-secondary" id="portfolio">
+                <div className="container">
+                    <div className="text-center">
+                        <h2 className="section-heading text-brand-light">Portfolio</h2>
+                        <hr className="divider" />
+                    </div>
+                    <div className="row mt-5">
+                        <div className="col-lg-4 col-sm-12 mb-4">
+                            <div className="portfolio-item">
+                                <img className="img-fluid" src={RoughTerrainPortfolio} alt="Rough Terrain Studios YouTube" />
+                                <div className="portfolio-caption">
+                                    <div className="portfolio-caption-heading">Rough Terrain Studios</div>
+                                    <div className="portfolio-caption-subheading text-muted">YouTube SEO</div>
+                                    <div className="portfolio-caption-subheading text-muted">
+                                        <a href="https://www.youtube.com/channel/UCh16fC0-zzcdRHcTWKYJurg" target="_blank" rel="noopener noreferrer">
+                                            YouTube Channel
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-sm-12 mb-4">
+                            <div className="portfolio-item">
+                                <img className="img-fluid" src={CSFPortfolio} alt="CSF IUPUI Website" />
+                                <div className="portfolio-caption">
+                                    <div className="portfolio-caption-heading">Christian Student Fellowship</div>
+                                    <div className="portfolio-caption-subheading text-muted">YouTube SEO + Web Design</div>
+                                    <div className="portfolio-caption-subheading text-muted">
+                                        <a href="https://www.youtube.com/channel/UC6e76TemyDULPBQ-9Kc2zMw" target="_blank" rel="noopener noreferrer">
+                                            YouTube Channel
+                                        </a>{" "}
+                                        |{" "}
+                                        <a href="https://csfiupui.com/" target="_blank" rel="noopener noreferrer">
+                                            Website
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-sm-12 mb-4">
+                            <div className="portfolio-item">
+                                <img className="img-fluid" src={CGChoirsPortfolio} alt="Center Grove Choirs Logo" style={{ objectPosition: "center" }} />
+                                <div className="portfolio-caption">
+                                    <div className="portfolio-caption-heading">Center Grove Choirs</div>
+                                    <div className="portfolio-caption-subheading text-muted">Web Maintenance</div>
+                                    <div className="portfolio-caption-subheading text-muted">
+                                        <a href="https://centergrovechoirs.org/" target="_blank" rel="noopener noreferrer">
+                                            Website
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
