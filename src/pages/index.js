@@ -16,7 +16,7 @@ const IndexPage = () => {
     return (
         <Layout>
             {/* Hero Section */}
-            <div className="bg-brand-secondary py-5 hero">
+            <div className="bg-brand-secondary py-5 hero" id="home">
                 <div className="container px-5">
                     <div className="row gx-5 align-items-center justify-content-center">
                         <div className="col-lg-7 col-xl-6">
