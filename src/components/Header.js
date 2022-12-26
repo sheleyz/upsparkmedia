@@ -8,7 +8,7 @@ import Logo from "../images/upsparkmedia/upspark-media-logo.png";
 
 function Header() {
     return (
-        <Navbar bg="brand-secondary" expand="md" className="py-3" variant="dark">
+        <Navbar bg="brand-secondary" expand="md" className="py-3" variant="dark" fixed="top">
             <Container className="px-4 px-lg-5">
                 <Navbar.Brand href="#home">
                     <img src={Logo} width="190px" height="43px" className="d-inline-block align-top" alt="UpSpark Media logo" />
