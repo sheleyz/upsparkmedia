@@ -24,17 +24,23 @@
     background-color: var(--upspark-secondary);
 }
 
+.bg-brand-light {
+    background-color: var(--upspark-light);
+}
+
 .btn-outline-brand-primary {
     color: var(--upspark-primary) !important;
     border-color: var(--upspark-primary) !important;
 
-    &:hover, &:active {
+    &:hover,
+    &:active {
         color: var(--upspark-secondary) !important;
         border-color: var(--upspark-primary) !important;
         background-color: var(--upspark-primary) !important;
     }
 
-    &:focus, &:focus-visible {
+    &:focus,
+    &:focus-visible {
         box-shadow: 0 0 0 0.25rem var(--upspark-secondary-dark);
     }
 }
@@ -68,7 +74,20 @@
 }
 
 .img-cover {
-	width: 100% !important;
-	height: 400px !important;
-	object-fit: cover;
+    width: 100% !important;
+    height: 400px !important;
+    object-fit: cover;
+}
+
+.page-section {
+    padding: 8rem 0;
+}
+
+hr.divider {
+    border-top: 0;
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: var(--upspark-primary);
+    opacity: 1;
 }

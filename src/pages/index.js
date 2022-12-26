@@ -1,5 +1,9 @@
 import * as React from "react";
 import Layout from "../components/Layout";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faLaptop } from "@fortawesome/free-solid-svg-icons";
+import { faUserGear } from "@fortawesome/free-solid-svg-icons";
 
 // Images
 import Laptop from "../images/laptop.jpg";
@@ -28,6 +32,43 @@ const IndexPage = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Services Section */}
+            <section className="page-section bg-brand-light" id="services">
+                <div className="container px-4 px-lg-5">
+                    <h2 className="text-center mt-0">Services</h2>
+                    <hr className="divider" />
+                    <div className="row gx-4 gx-lg-5">
+                        <div className="col-lg-4 col-md-4 text-center">
+                            <div className="mt-5">
+                                <div className="mb-4 icon">
+                                    <FontAwesomeIcon icon={faYoutube} size="5x" fixedWidth color="var(--upspark-secondary)" />
+                                </div>
+                                <h3 className="h4 mb-2">YouTube SEO</h3>
+                                <p className="mb-0">Make it easier for people to find your channel on YouTube</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-4 text-center">
+                            <div className="mt-5">
+                                <div className="mb-4">
+                                    <FontAwesomeIcon icon={faLaptop} size="5x" fixedWidth color="var(--upspark-secondary)" />
+                                </div>
+                                <h3 className="h4 mb-2">Website Design</h3>
+                                <p className="mb-0">Get a new design for your website or update your current one</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-4 text-center">
+                            <div className="mt-5">
+                                <div className="mb-4">
+                                    <FontAwesomeIcon icon={faUserGear} size="5x" fixedWidth color="var(--upspark-secondary)" />
+                                </div>
+                                <h3 className="h4 mb-2">Website Maintenance</h3>
+                                <p className="mb-0">Have your website maintained through consistent content updates and general site improvements</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </Layout>
     );
 };
