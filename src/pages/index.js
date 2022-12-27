@@ -111,7 +111,7 @@ const IndexPage = () => {
                         <PortfolioItem
                             imgURL={CGChoirsPortfolio}
                             heading={"Center Grove Choirs"}
-                            subheading={"Web Maintenance"}
+                            subheading={"Website Maintenance"}
                             links={[
                                 {
                                     link: "https://centergrovechoirs.org/",
