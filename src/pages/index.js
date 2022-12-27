@@ -151,4 +151,10 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>UpSpark Media - YouTube SEO + Web Design</title>;
+export const Head = () => (
+    <>
+        <title>UpSpark Media - YouTube SEO + Web Design</title>
+        {/* Pixel Code for https://app.tinyanalytics.io/ */}
+        <script defer src="https://app.tinyanalytics.io/pixel/iKK3di9WSWyeSwWO"></script>
+    </>
+);

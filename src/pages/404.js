@@ -27,4 +27,10 @@ const NotFoundPage = () => {
 
 export default NotFoundPage;
 
-export const Head = () => <title>Not found</title>;
+export const Head = () => (
+    <>
+        <title>Not found</title>
+        {/* Pixel Code for https://app.tinyanalytics.io/ */}
+        <script defer src="https://app.tinyanalytics.io/pixel/iKK3di9WSWyeSwWO"></script>
+    </>
+);
