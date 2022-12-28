@@ -154,6 +154,7 @@ export default IndexPage;
 export const Head = () => (
     <>
         <title>UpSpark Media - YouTube SEO + Web Design</title>
+        <meta name="description" content="We optimize your website or YouTube channel to increase your visibility and potential for growth online." />
         {/* Pixel Code for https://app.tinyanalytics.io/ */}
         <script defer src="https://app.tinyanalytics.io/pixel/iKK3di9WSWyeSwWO"></script>
     </>

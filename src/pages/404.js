@@ -30,6 +30,7 @@ export default NotFoundPage;
 export const Head = () => (
     <>
         <title>Not found</title>
+        <meta name="description" content="Page not found." />
         {/* Pixel Code for https://app.tinyanalytics.io/ */}
         <script defer src="https://app.tinyanalytics.io/pixel/iKK3di9WSWyeSwWO"></script>
     </>
