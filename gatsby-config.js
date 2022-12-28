@@ -8,11 +8,14 @@ require("dotenv").config({
 module.exports = {
     siteMetadata: {
         title: `UpSpark Media - YouTube SEO + Web Design`,
-        siteUrl: `https://upsparkmedia.com/`
+        siteUrl: `https://upsparkmedia.com/`,
+        description: `We optimize your website or YouTube channel to increase your visibility and potential for growth online.`
     },
     plugins: [
         "gatsby-plugin-image",
         "gatsby-plugin-sass",
+        "gatsby-plugin-sharp",
+        "gatsby-transformer-sharp",
         {
             resolve: `gatsby-source-contentful`,
             options: {

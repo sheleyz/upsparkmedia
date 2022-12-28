@@ -9,10 +9,10 @@ const Footer = () => {
             <div className="container px-4 px-lg-5 fw-semibold">
                 <div className="text-center">UpSpark Media</div>
                 <div className="text-center">
-                    <a className="btn btn-social mx-2 my-3" href="https://twitter.com/upsparkmedia" target="_blank" rel="noopener noreferrer">
+                    <a className="btn btn-social mx-2 my-3" href="https://twitter.com/upsparkmedia" target="_blank" rel="noopener noreferrer" title="UpSpark Media Twitter">
                         <FontAwesomeIcon icon={faTwitterSquare} size="3x" fixedWidth />
                     </a>{" "}
-                    <a className="btn btn-social mx-2 my-3" href="https://instagram.com/upspark.media" target="_blank" rel="noopener noreferrer">
+                    <a className="btn btn-social mx-2 my-3" href="https://instagram.com/upspark.media" target="_blank" rel="noopener noreferrer" title="UpSpark Media Instagram">
                         <FontAwesomeIcon icon={faInstagramSquare} size="3x" fixedWidth />
                     </a>
                 </div>
