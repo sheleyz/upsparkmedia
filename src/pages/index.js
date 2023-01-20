@@ -132,7 +132,7 @@ const IndexPage = () => {
                             <h2 className="mt-0">Let's Talk!</h2>
                             <hr className="divider" />
                             <p className="brand-text-grey mb-5">
-                                Ready to start your next project or have a few questions first? Contact us using the form below and I will get back to you as soon as possible!
+                                Ready to start your next project or have a few questions first? Contact us using the form below and we will get back to you as soon as possible!
                             </p>
                         </div>
                     </div>
