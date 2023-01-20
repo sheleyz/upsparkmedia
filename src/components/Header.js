@@ -2,16 +2,25 @@ import * as React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
-// Images
-import Logo from "../images/upsparkmedia/upspark-media-logo.png";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Header = () => {
     return (
         <Navbar bg="brand-secondary" expand="md" className="py-3" variant="dark" fixed="top">
             <Container className="px-4 px-lg-5">
                 <Navbar.Brand href="#home">
-                    <img src={Logo} width="190px" height="43px" className="d-inline-block align-top" alt="UpSpark Media logo" />
+                    <StaticImage
+                        src="../images/upsparkmedia/upspark-media-logo.png"
+                        alt="UpSpark Media logo"
+                        className="d-inline-block align-top"
+                        width={190}
+                        height={43}
+                        layout="fixed"
+                        placeholder="transparent"
+                        loading="eager"
+                        imgStyle={{ transform: "none", transition: "none", willChange: "unset" }}
+                        style={{ transition: "none" }}
+                    />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbar-nav" />
                 <Navbar.Collapse id="navbar-nav" className="my-2 my-md-0">
@@ -24,6 +33,6 @@ const Header = () => {
             </Container>
         </Navbar>
     );
-}
+};
 
 export default Header;

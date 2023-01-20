@@ -1,10 +1,10 @@
 import * as React from "react";
 
-const PortfolioItem = ({ imgURL, heading, subheading, links, centerImage }) => {
+const PortfolioItem = ({ image, heading, subheading, links }) => {
     return (
         <div className="col-lg-4 col-sm-12 mb-4">
             <div className="portfolio-item">
-                <img className={`img-fluid${centerImage ? " centerImage" : ""}`} src={imgURL} alt={heading} />
+                {image}
                 <div className="portfolio-caption">
                     <div className="portfolio-caption-heading">{heading}</div>
                     <div className="portfolio-caption-subheading text-muted">{subheading}</div>

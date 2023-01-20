@@ -1,23 +1,20 @@
 import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faLaptop } from "@fortawesome/free-solid-svg-icons";
 import { faUserGear } from "@fortawesome/free-solid-svg-icons";
+
+// Components
 import Layout from "../components/Layout";
 import PortfolioItem from "../components/PortfolioItem";
-
-// Images
-import Laptop from "../images/laptop.jpg";
-import RoughTerrainPortfolio from "../images/portfolio/Rough-Terrain-Studios-YouTube-cropped.jpg";
-import CSFPortfolio from "../images/portfolio/CSF-IUPUI-Website-cropped.jpg";
-import CGChoirsPortfolio from "../images/portfolio/CG-Choirs-Logo.jpg";
 
 const IndexPage = () => {
     return (
         <Layout>
             {/* Hero Section */}
             <div className="bg-brand-secondary py-5 hero" id="home">
-                <div className="container px-5">
+                <div className="container px-5 hero-container">
                     <div className="row gx-5 align-items-center justify-content-center">
                         <div className="col-lg-7 col-xl-6">
                             <div className="my-5 text-center text-lg-start">
@@ -31,7 +28,7 @@ const IndexPage = () => {
                             </div>
                         </div>
                         <div className="col-lg-5 col-xl-6 d-none d-lg-block text-center">
-                            <img className="img-cover rounded-3 my-5" src={Laptop} alt="Laptop" />
+                            <StaticImage src={"../images/laptop.jpg"} alt="Laptop" placeholder="blurred" loading="eager" imgClassName="rounded-3"/>
                         </div>
                     </div>
                 </div>
@@ -83,7 +80,7 @@ const IndexPage = () => {
                     </div>
                     <div className="row mt-5">
                         <PortfolioItem
-                            imgURL={RoughTerrainPortfolio}
+                            image={<StaticImage src={"../images/portfolio/Rough-Terrain-Studios-YouTube-cropped.jpg"} alt="Rough Terrain Studios" placeholder="blurred" className="imageWrapper"/>}
                             heading={"Rough Terrain Studios"}
                             subheading={"YouTube SEO"}
                             links={[
@@ -94,7 +91,7 @@ const IndexPage = () => {
                             ]}
                         />
                         <PortfolioItem
-                            imgURL={CSFPortfolio}
+                            image={<StaticImage src={"../images/portfolio/CSF-IUPUI-Website-cropped.jpg"} alt="Christian Student Fellowship" placeholder="blurred" className="imageWrapper"/>}
                             heading={"Christian Student Fellowship"}
                             subheading={"YouTube SEO + Web Design"}
                             links={[
@@ -109,7 +106,7 @@ const IndexPage = () => {
                             ]}
                         />
                         <PortfolioItem
-                            imgURL={CGChoirsPortfolio}
+                            image={<StaticImage src={"../images/portfolio/CG-Choirs-Logo.jpg"} alt="Center Grove Choirs" placeholder="blurred" className="imageWrapper" imgClassName="centerImage"/>}
                             heading={"Center Grove Choirs"}
                             subheading={"Website Maintenance"}
                             links={[
@@ -118,7 +115,6 @@ const IndexPage = () => {
                                     text: "Website"
                                 }
                             ]}
-                            centerImage={true}
                         />
                     </div>
                 </div>
