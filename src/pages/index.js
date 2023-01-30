@@ -8,6 +8,7 @@ import { faUserGear } from "@fortawesome/free-solid-svg-icons";
 // Components
 import Layout from "../components/Layout";
 import PortfolioItem from "../components/PortfolioItem";
+import Seo from "../components/Seo";
 
 const IndexPage = () => {
     return (
@@ -149,8 +150,7 @@ export default IndexPage;
 
 export const Head = () => (
     <>
-        <title>UpSpark Media - YouTube SEO + Web Design</title>
-        <meta name="description" content="We optimize your website or YouTube channel to increase your visibility and potential for growth online." />
+        <Seo />
         {/* Pixel Code for https://app.tinyanalytics.io/ */}
         <script defer src="https://app.tinyanalytics.io/pixel/iKK3di9WSWyeSwWO"></script>
     </>

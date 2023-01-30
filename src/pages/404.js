@@ -1,5 +1,8 @@
 import * as React from "react";
+
+// Components
 import Layout from "../components/Layout";
+import Seo from "../components/Seo";
 
 const NotFoundPage = () => {
     return (
@@ -29,8 +32,7 @@ export default NotFoundPage;
 
 export const Head = () => (
     <>
-        <title>Not found</title>
-        <meta name="description" content="Page not found." />
+        <Seo title="Not found" description="Page not found."/>
         {/* Pixel Code for https://app.tinyanalytics.io/ */}
         <script defer src="https://app.tinyanalytics.io/pixel/iKK3di9WSWyeSwWO"></script>
     </>
