@@ -16,6 +16,7 @@ const Seo = ({ title, description, pathname, children }) => {
             <title>{seo.title}</title>
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
+            <meta name="google-site-verification" content="14epdAhFBdX4Urq_zwN3viVK3332v8t33BztT95M0Ic" />
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content={seo.title} />
             <meta name="twitter:url" content={seo.url} />
