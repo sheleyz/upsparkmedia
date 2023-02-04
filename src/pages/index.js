@@ -151,7 +151,5 @@ export default IndexPage;
 export const Head = () => (
     <>
         <Seo />
-        {/* Pixel Code for https://app.tinyanalytics.io/ */}
-        <script defer src="https://app.tinyanalytics.io/pixel/iKK3di9WSWyeSwWO"></script>
     </>
 );

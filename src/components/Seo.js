@@ -23,6 +23,8 @@ const Seo = ({ title, description, pathname, children }) => {
             <meta name="twitter:description" content={seo.description} />
             <meta name="twitter:image" content={seo.image} />
             {children}
+            {/* Pixel Code for https://app.tinyanalytics.io/ */}
+            <script defer src="https://app.tinyanalytics.io/pixel/iKK3di9WSWyeSwWO"></script>
         </>
     );
 };
