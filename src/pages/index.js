@@ -47,7 +47,7 @@ const IndexPage = () => {
                                     <FontAwesomeIcon icon={faYoutube} size="5x" fixedWidth color="var(--upspark-secondary)" />
                                 </div>
                                 <h3 className="h4 mb-2">YouTube SEO</h3>
-                                <p className="mb-0">Make it easier for people to find your channel on YouTube</p>
+                                <p className="mb-0">Make it easier for people to discover your channel and videos on YouTube</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 text-center">
@@ -56,7 +56,7 @@ const IndexPage = () => {
                                     <FontAwesomeIcon icon={faLaptop} size="5x" fixedWidth color="var(--upspark-secondary)" />
                                 </div>
                                 <h3 className="h4 mb-2">Website Design</h3>
-                                <p className="mb-0">Get a new design for your website or update your current one</p>
+                                <p className="mb-0">Reach your target audience with a well-designed, user-friendly website</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 text-center">
@@ -65,7 +65,7 @@ const IndexPage = () => {
                                     <FontAwesomeIcon icon={faUserGear} size="5x" fixedWidth color="var(--upspark-secondary)" />
                                 </div>
                                 <h3 className="h4 mb-2">Website Maintenance</h3>
-                                <p className="mb-0">Have your website maintained through consistent content updates and general site improvements</p>
+                                <p className="mb-0">Have us maintain your website through consistent content updates and general site improvements</p>
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ const IndexPage = () => {
                         <PortfolioItem
                             image={<StaticImage src={"../images/portfolio/CSF-IUPUI-Website-cropped.jpg"} alt="Christian Student Fellowship" placeholder="blurred" className="imageWrapper"/>}
                             heading={"Christian Student Fellowship"}
-                            subheading={"YouTube SEO + Web Design"}
+                            subheading={"YouTube SEO + Website Design"}
                             links={[
                                 {
                                     link: "https://www.youtube.com/channel/UC6e76TemyDULPBQ-9Kc2zMw",
