@@ -29,7 +29,7 @@ const IndexPage = () => {
                             </div>
                         </div>
                         <div className="col-lg-5 col-xl-6 d-none d-lg-block text-center">
-                            <StaticImage src={"../images/laptop.jpg"} alt="Laptop" placeholder="blurred" loading="eager" imgClassName="rounded-3"/>
+                            <StaticImage src={"../images/laptop.jpg"} alt="Laptop" placeholder="blurred" loading="eager" imgClassName="rounded-3" />
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,18 @@ const IndexPage = () => {
                     </div>
                     <div className="row mt-5">
                         <PortfolioItem
-                            image={<StaticImage src={"../images/portfolio/Rough-Terrain-Studios-YouTube-cropped.jpg"} alt="Rough Terrain Studios" placeholder="blurred" className="imageWrapper"/>}
+                            image={<StaticImage src={"../images/portfolio/live-defined.png"} alt="Live Defined Co" placeholder="blurred" className="imageWrapper" />}
+                            heading={"Live Defined Co"}
+                            subheading={"Website Design + Website Maintenance"}
+                            links={[
+                                {
+                                    link: "https://livedefinedco.com/",
+                                    text: "Website"
+                                }
+                            ]}
+                        />
+                        <PortfolioItem
+                            image={<StaticImage src={"../images/portfolio/rough-terrain-studios.jpg"} alt="Rough Terrain Studios" placeholder="blurred" className="imageWrapper" />}
                             heading={"Rough Terrain Studios"}
                             subheading={"YouTube SEO"}
                             links={[
@@ -92,7 +103,7 @@ const IndexPage = () => {
                             ]}
                         />
                         <PortfolioItem
-                            image={<StaticImage src={"../images/portfolio/CSF-IUPUI-Website-cropped.jpg"} alt="Christian Student Fellowship" placeholder="blurred" className="imageWrapper"/>}
+                            image={<StaticImage src={"../images/portfolio/csf-iupui.jpg"} alt="Christian Student Fellowship" placeholder="blurred" className="imageWrapper" />}
                             heading={"Christian Student Fellowship"}
                             subheading={"YouTube SEO + Website Design"}
                             links={[
@@ -107,7 +118,7 @@ const IndexPage = () => {
                             ]}
                         />
                         <PortfolioItem
-                            image={<StaticImage src={"../images/portfolio/CG-Choirs-Logo.jpg"} alt="Center Grove Choirs" placeholder="blurred" className="imageWrapper" imgClassName="centerImage"/>}
+                            image={<StaticImage src={"../images/portfolio/cg-choirs.jpg"} alt="Center Grove Choirs" placeholder="blurred" className="imageWrapper" imgClassName="centerImage" />}
                             heading={"Center Grove Choirs"}
                             subheading={"Website Maintenance"}
                             links={[
