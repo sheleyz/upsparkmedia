@@ -138,9 +138,11 @@ hr.divider {
     margin-left: auto;
     margin-right: auto;
     object-fit: cover;
+    box-shadow: 0px 5px 10px var(--upspark-dark);
 
     .imageWrapper {
         height: 200px;
+        border-radius: 0.25rem 0.25rem 0rem 0rem;
     }
 
     img {
@@ -152,6 +154,7 @@ hr.divider {
     padding: 1.5rem 1.11rem;
     text-align: center;
     background-color: #fff;
+    border-radius: 0rem 0rem 0.25rem 0.25rem;
 
     a {
         color: var(--upspark-secondary);

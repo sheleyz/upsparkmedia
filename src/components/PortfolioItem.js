@@ -2,7 +2,7 @@ import * as React from "react";
 
 const PortfolioItem = ({ image, heading, subheading, links }) => {
     return (
-        <div className="col-lg-4 col-sm-12 mb-4">
+        <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div className="portfolio-item">
                 {image}
                 <div className="portfolio-caption">
