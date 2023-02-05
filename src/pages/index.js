@@ -92,17 +92,6 @@ const IndexPage = () => {
                             ]}
                         />
                         <PortfolioItem
-                            image={<StaticImage src={"../images/portfolio/rough-terrain-studios.jpg"} alt="Rough Terrain Studios" placeholder="blurred" className="imageWrapper" />}
-                            heading={"Rough Terrain Studios"}
-                            subheading={"YouTube SEO"}
-                            links={[
-                                {
-                                    link: "https://www.youtube.com/channel/UCh16fC0-zzcdRHcTWKYJurg",
-                                    text: "YouTube Channel"
-                                }
-                            ]}
-                        />
-                        <PortfolioItem
                             image={<StaticImage src={"../images/portfolio/csf-iupui.jpg"} alt="Christian Student Fellowship" placeholder="blurred" className="imageWrapper" />}
                             heading={"Christian Student Fellowship"}
                             subheading={"YouTube SEO + Website Design"}
@@ -114,6 +103,17 @@ const IndexPage = () => {
                                 {
                                     link: "https://csfiupui.com/",
                                     text: "Website"
+                                }
+                            ]}
+                        />
+                        <PortfolioItem
+                            image={<StaticImage src={"../images/portfolio/rough-terrain-studios.jpg"} alt="Rough Terrain Studios" placeholder="blurred" className="imageWrapper" />}
+                            heading={"Rough Terrain Studios"}
+                            subheading={"YouTube SEO"}
+                            links={[
+                                {
+                                    link: "https://www.youtube.com/channel/UCh16fC0-zzcdRHcTWKYJurg",
+                                    text: "YouTube Channel"
                                 }
                             ]}
                         />
