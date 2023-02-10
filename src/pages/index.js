@@ -81,7 +81,7 @@ const IndexPage = () => {
                     </div>
                     <div className="row mt-5">
                         <PortfolioItem
-                            image={<StaticImage src={"../images/portfolio/live-defined.png"} alt="Live Defined Co" placeholder="blurred" className="imageWrapper" />}
+                            image={<StaticImage src={"../images/portfolio/live-defined.jpg"} alt="Live Defined Co" placeholder="blurred" className="imageWrapper" />}
                             heading={"Live Defined Co"}
                             subheading={"Website Design + Website Maintenance"}
                             links={[
