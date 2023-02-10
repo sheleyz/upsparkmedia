@@ -1,7 +1,6 @@
 [[redirects]]
   from = "/"
-  to = "/404"
+  to = "/blocked"
   status = 403
-  force = false
-  query = {path = ":path"}
-  conditions = {Language = ["zh", "ru", "hi"], Country = ["CN", "RU", "IN", "TR", "TW", "HK", "MO", "BR", "MY", "ID", "UA"]}
+  force = true
+  conditions = {Country = ["CN", "RU", "IN", "TR", "TW", "HK", "MO", "BR", "MY", "ID", "UA"]}
