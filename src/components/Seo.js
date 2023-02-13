@@ -17,6 +17,7 @@ const Seo = ({ title, description, pathname, children }) => {
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
             <meta name="google-site-verification" content="14epdAhFBdX4Urq_zwN3viVK3332v8t33BztT95M0Ic" />
+            <meta name="msvalidate.01" content="913751F24A1482E2603AE560D9749A01" />
             <meta property="og:title" content={seo.title} />
             <meta property="og:url" content={seo.url} />
             <meta property="og:image" content={seo.image} />
