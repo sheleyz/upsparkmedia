@@ -43,20 +43,20 @@ const IndexPage = () => {
                     <div className="row gx-4 gx-lg-5">
                         <div className="col-lg-4 col-md-4 text-center">
                             <div className="mt-5">
-                                <div className="mb-4 icon">
-                                    <FontAwesomeIcon icon={faYoutube} size="5x" fixedWidth color="var(--upspark-secondary)" />
-                                </div>
-                                <h3 className="h4 mb-2">YouTube SEO</h3>
-                                <p className="mb-0">Make it easier for people to discover your channel and videos on YouTube</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-4 text-center">
-                            <div className="mt-5">
                                 <div className="mb-4">
                                     <FontAwesomeIcon icon={faLaptop} size="5x" fixedWidth color="var(--upspark-secondary)" />
                                 </div>
                                 <h3 className="h4 mb-2">Website Design</h3>
                                 <p className="mb-0">Reach your target audience with a well-designed, user-friendly website</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-4 text-center">
+                            <div className="mt-5">
+                                <div className="mb-4 icon">
+                                    <FontAwesomeIcon icon={faYoutube} size="5x" fixedWidth color="var(--upspark-secondary)" />
+                                </div>
+                                <h3 className="h4 mb-2">YouTube SEO</h3>
+                                <p className="mb-0">Make it easier for people to discover your channel and videos on YouTube</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 text-center">
