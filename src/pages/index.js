@@ -107,6 +107,17 @@ const IndexPage = () => {
                             ]}
                         />
                         <PortfolioItem
+                            image={<StaticImage src={"../images/portfolio/mpcc.jpg"} alt="Mount Pleasant Christian Church" placeholder="blurred" className="imageWrapper" />}
+                            heading={"Mount Pleasant Christian Church"}
+                            subheading={"YouTube SEO"}
+                            links={[
+                                {
+                                    link: "https://www.youtube.com/@MountPleasantChristianChurch",
+                                    text: "YouTube Channel"
+                                }
+                            ]}
+                        />
+                        <PortfolioItem
                             image={<StaticImage src={"../images/portfolio/rough-terrain-studios.jpg"} alt="Rough Terrain Studios" placeholder="blurred" className="imageWrapper" />}
                             heading={"Rough Terrain Studios"}
                             subheading={"YouTube SEO"}
