@@ -41,28 +41,28 @@ const IndexPage = () => {
                 <div className="container mw-100 px-4 px-md-5">
                     <h2 className="text-center mt-0">Services</h2>
                     <div className="row mt-5">
-                        <div className="col-sm-12 col-md-6 col-lg-3 text-center mb-5">
+                        <div className="col-sm-12 col-md-6 col-lg-3 text-center mb-5 mb-lg-0">
                             <div className="mb-4">
                                 <FontAwesomeIcon icon={faLaptop} size="5x" fixedWidth color="var(--upspark-secondary)" />
                             </div>
                             <h3 className="h4 mb-2">Website Design</h3>
                             <p className="mb-0">Reach your target audience with a well-designed, user-friendly website</p>
                         </div>
-                        <div className="col-sm-12 col-md-6 col-lg-3 text-center mb-5">
+                        <div className="col-sm-12 col-md-6 col-lg-3 text-center mb-5 mb-lg-0">
                             <div className="mb-4 icon">
                                 <FontAwesomeIcon icon={faYoutube} size="5x" fixedWidth color="var(--upspark-secondary)" />
                             </div>
                             <h3 className="h4 mb-2">YouTube SEO</h3>
                             <p className="mb-0">Make it easier for people to discover your channel and videos on YouTube</p>
                         </div>
-                        <div className="col-sm-12 col-md-6 col-lg-3 text-center mb-5">
+                        <div className="col-sm-12 col-md-6 col-lg-3 text-center mb-5 mb-lg-0">
                             <div className="mb-4">
                                 <FontAwesomeIcon icon={faUserGear} size="5x" fixedWidth color="var(--upspark-secondary)" />
                             </div>
                             <h3 className="h4 mb-2">Website Maintenance</h3>
                             <p className="mb-0">Have us maintain your website through consistent content updates and general site improvements</p>
                         </div>
-                        <div className="col-sm-12 col-md-6 col-lg-3 text-center mb-5">
+                        <div className="col-sm-12 col-md-6 col-lg-3 text-center mb-5 mb-lg-0">
                             <div className="mb-4">
                                 <FontAwesomeIcon icon={faMagnifyingGlass} size="5x" fixedWidth color="var(--upspark-secondary)" />
                             </div>
