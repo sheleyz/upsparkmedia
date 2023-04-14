@@ -16,20 +16,20 @@ const IndexPage = () => {
         <Layout>
             {/* Hero Section */}
             <div className="bg-brand-secondary py-5 hero" id="home">
-                <div className="container px-5 hero-container">
-                    <div className="row gx-5 align-items-center justify-content-center">
-                        <div className="col-lg-7 col-xl-6">
-                            <div className="my-5 text-center text-lg-start">
+                <div className="container px-4 px-md-5 hero-container mw-100 d-flex justify-content-center">
+                    <div className="row gx-0 align-items-center justify-content-center">
+                        <div className="col-md-6 px-0">
+                            <div className="heroText my-5">
                                 <h1 className="display-5 fw-bolder text-white mb-2">Increase your growth potential online</h1>
                                 <p className="lead fw-normal text-grey mb-4">We optimize your website or YouTube channel to increase your visibility and potential for growth online.</p>
-                                <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-start">
+                                <div className="d-flex">
                                     <a className="btn btn-outline-brand-primary btn-lg px-4" href="#services">
                                         Find Out More
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-5 col-xl-6 d-none d-lg-block text-center">
+                        <div className="heroImage col-md-6 d-none d-md-block text-center">
                             <StaticImage src={"../images/laptop.jpg"} alt="Laptop" placeholder="blurred" loading="eager" imgClassName="rounded-3" />
                         </div>
                     </div>
@@ -83,11 +83,11 @@ const IndexPage = () => {
 
             {/* Portfolio Section */}
             <section className="page-section bg-brand-secondary" id="portfolio">
-                <div className="container">
+                <div className="container mw-100 px-4 px-md-5">
                     <div className="text-center">
                         <h2 className="section-heading text-white">Portfolio</h2>
                     </div>
-                    <div className="row mt-5">
+                    <div className="row mt-5 d-flex">
                         <PortfolioItem
                             image={<StaticImage src={"../images/portfolio/live-defined.jpg"} alt="Live Defined Co" placeholder="blurred" className="imageWrapper" />}
                             heading={"Live Defined Co"}
@@ -155,8 +155,8 @@ const IndexPage = () => {
             <section className="page-section bg-brand-light" id="contact">
                 <div className="container px-4 px-lg-5">
                     <div className="row gx-4 gx-lg-5 justify-content-center">
-                        <div className="col-lg-8 col-xl-6 text-center">
-                            <h2 className="mt-0">Let's Talk!</h2>
+                        <div className="col-lg-8 col-xl-6">
+                            <h2 className="mt-0 text-center">Let's Talk!</h2>
                             <p className="brand-text-grey mb-5">
                                 Ready to start your next project or have a few questions first? Contact us using the form below and we will get back to you as soon as possible!
                             </p>
