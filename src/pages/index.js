@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faLaptop } from "@fortawesome/free-solid-svg-icons";
 import { faUserGear } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 // Components
 import Layout from "../components/Layout";
@@ -39,9 +40,8 @@ const IndexPage = () => {
             <section className="page-section bg-brand-light" id="services">
                 <div className="container px-4 px-lg-5">
                     <h2 className="text-center mt-0">Services</h2>
-                    <hr className="divider" />
                     <div className="row gx-4 gx-lg-5">
-                        <div className="col-lg-4 col-md-4 text-center">
+                        <div className="col-lg-3 col-md-3 text-center">
                             <div className="mt-5">
                                 <div className="mb-4">
                                     <FontAwesomeIcon icon={faLaptop} size="5x" fixedWidth color="var(--upspark-secondary)" />
@@ -50,7 +50,7 @@ const IndexPage = () => {
                                 <p className="mb-0">Reach your target audience with a well-designed, user-friendly website</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-4 text-center">
+                        <div className="col-lg-3 col-md-3 text-center">
                             <div className="mt-5">
                                 <div className="mb-4 icon">
                                     <FontAwesomeIcon icon={faYoutube} size="5x" fixedWidth color="var(--upspark-secondary)" />
@@ -59,13 +59,22 @@ const IndexPage = () => {
                                 <p className="mb-0">Make it easier for people to discover your channel and videos on YouTube</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-4 text-center">
+                        <div className="col-lg-3 col-md-3 text-center">
                             <div className="mt-5">
                                 <div className="mb-4">
                                     <FontAwesomeIcon icon={faUserGear} size="5x" fixedWidth color="var(--upspark-secondary)" />
                                 </div>
                                 <h3 className="h4 mb-2">Website Maintenance</h3>
                                 <p className="mb-0">Have us maintain your website through consistent content updates and general site improvements</p>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-3 text-center">
+                            <div className="mt-5">
+                                <div className="mb-4">
+                                    <FontAwesomeIcon icon={faMagnifyingGlass} size="5x" fixedWidth color="var(--upspark-secondary)" />
+                                </div>
+                                <h3 className="h4 mb-2">SEO</h3>
+                                <p className="mb-0">Optimize your website in order to rank higher in search engines and improve discoverability</p>
                             </div>
                         </div>
                     </div>
@@ -77,7 +86,6 @@ const IndexPage = () => {
                 <div className="container">
                     <div className="text-center">
                         <h2 className="section-heading text-white">Portfolio</h2>
-                        <hr className="divider" />
                     </div>
                     <div className="row mt-5">
                         <PortfolioItem
@@ -149,7 +157,6 @@ const IndexPage = () => {
                     <div className="row gx-4 gx-lg-5 justify-content-center">
                         <div className="col-lg-8 col-xl-6 text-center">
                             <h2 className="mt-0">Let's Talk!</h2>
-                            <hr className="divider" />
                             <p className="brand-text-grey mb-5">
                                 Ready to start your next project or have a few questions first? Contact us using the form below and we will get back to you as soon as possible!
                             </p>
