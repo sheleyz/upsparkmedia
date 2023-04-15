@@ -88,7 +88,7 @@ const IndexPage = () => {
                     <h2 className="section-heading text-center text-white">Portfolio</h2>
                     <div className="row mt-5 d-flex">
                         <PortfolioItem
-                            image={<Image src={LiveDefinedImage} alt="Live Defined Co" placeholder="blur" />}
+                            image={<Image src={LiveDefinedImage} alt="Live Defined Co" placeholder="blur" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />}
                             heading={"Live Defined Co"}
                             subheading={"Website Design + Website Maintenance"}
                             links={[
@@ -99,7 +99,7 @@ const IndexPage = () => {
                             ]}
                         />
                         <PortfolioItem
-                            image={<Image src={CSFImage} alt="Christian Student Fellowship" placeholder="blur" />}
+                            image={<Image src={CSFImage} alt="Christian Student Fellowship" placeholder="blur" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />}
                             heading={"Christian Student Fellowship"}
                             subheading={"YouTube SEO + Website Design"}
                             links={[
@@ -114,7 +114,7 @@ const IndexPage = () => {
                             ]}
                         />
                         <PortfolioItem
-                            image={<Image src={MPCCImage} alt="Mount Pleasant Christian Church" placeholder="blur" />}
+                            image={<Image src={MPCCImage} alt="Mount Pleasant Christian Church" placeholder="blur" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />}
                             heading={"Mount Pleasant Christian Church"}
                             subheading={"YouTube SEO"}
                             links={[
@@ -125,7 +125,7 @@ const IndexPage = () => {
                             ]}
                         />
                         <PortfolioItem
-                            image={<Image src={RoughTerrainStudiosImage} alt="Rough Terrain Studios" placeholder="blur" />}
+                            image={<Image src={RoughTerrainStudiosImage} alt="Rough Terrain Studios" placeholder="blur" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />}
                             heading={"Rough Terrain Studios"}
                             subheading={"YouTube SEO"}
                             links={[
@@ -136,7 +136,7 @@ const IndexPage = () => {
                             ]}
                         />
                         <PortfolioItem
-                            image={<Image src={CenterGroveChoirsImage} alt="Center Grove Choirs" placeholder="blur" className="centerImage" />} //center
+                            image={<Image src={CenterGroveChoirsImage} alt="Center Grove Choirs" placeholder="blur" className="centerImage" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />} //center
                             heading={"Center Grove Choirs"}
                             subheading={"Website Maintenance"}
                             links={[
