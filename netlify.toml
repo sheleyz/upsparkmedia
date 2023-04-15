@@ -1,6 +1,0 @@
-[[redirects]]
-  from = "/"
-  to = "/blocked"
-  status = 403
-  force = true
-  conditions = {Country = ["CN", "RU", "IN", "TR", "TW", "HK", "MO", "BR", "MY", "ID", "UA"]}
