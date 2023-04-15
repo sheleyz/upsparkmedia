@@ -1,6 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import * as React from "react";
-import "../index.scss";
 import Header from "./Header";
 import Footer from "./Footer";
 

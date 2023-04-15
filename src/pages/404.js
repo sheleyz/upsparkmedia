@@ -7,6 +7,7 @@ import Seo from "../components/Seo";
 const NotFoundPage = () => {
     return (
         <Layout>
+            <Seo title="Not found" description="Page not found." />
             <div className="text-white hero py-5">
                 <div className="container px-5">
                     <div className="row gx-5 align-items-center justify-content-center">
@@ -29,9 +30,3 @@ const NotFoundPage = () => {
 };
 
 export default NotFoundPage;
-
-export const Head = () => (
-    <>
-        <Seo title="Not found" description="Page not found."/>
-    </>
-);

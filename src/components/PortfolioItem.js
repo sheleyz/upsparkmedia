@@ -4,7 +4,7 @@ const PortfolioItem = ({ image, heading, subheading, links }) => {
     return (
         <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
             <div className="portfolio-item">
-                {image}
+                <div className="imageWrapper">{image}</div>
                 <div className="portfolio-caption">
                     <div className="portfolio-caption-heading">{heading}</div>
                     <div className="portfolio-caption-subheading text-muted">{subheading}</div>
