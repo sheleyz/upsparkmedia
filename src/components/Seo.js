@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import config from "../config";
 
-const Seo = ({ title, description, children }) => {
+const Seo = ({ title, description }) => {
     const siteTitle = config.title;
     const metaDescription = description || config.description;
     const siteUrl = config.siteUrl;
