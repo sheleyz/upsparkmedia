@@ -10,7 +10,7 @@ const PortfolioItem = ({ image, heading, subheading, links }) => {
                     <div className="portfolio-caption-subheading text-grey-dark">{subheading}</div>
                     <div className="portfolio-caption-links text-grey-dark">
                         {links.map((item, index) => (
-                            <div key={index} className="mx-1">
+                            <div key={index} className="my-1 mx-2">
                                 <a href={item.link} target="_blank" rel="noopener noreferrer">
                                     {item.text}
                                 </a>

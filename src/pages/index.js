@@ -13,6 +13,7 @@ import Seo from "../components/Seo";
 
 // Images
 import LaptopImage from "../images/laptop.jpg";
+import OGWEnergyResourcesImage from "../images/portfolio/ogw-energy-resources.jpg";
 import LiveDefinedImage from "../images/portfolio/live-defined.jpg";
 import CSFImage from "../images/portfolio/csf-iupui.jpg";
 import MPCCImage from "../images/portfolio/mpcc.jpg";
@@ -88,6 +89,17 @@ const IndexPage = () => {
                     <h2 className="section-heading text-center text-white">Portfolio</h2>
                     <div className="row mt-5 d-flex">
                         <PortfolioItem
+                            image={<Image src={OGWEnergyResourcesImage} alt="OGW Energy Resources" placeholder="blur" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />}
+                            heading={"OGW Energy Resources"}
+                            subheading={"Website Design + SEO"}
+                            links={[
+                                {
+                                    link: "https://ogwenergyresources.com/",
+                                    text: "Website"
+                                }
+                            ]}
+                        />
+                        <PortfolioItem
                             image={<Image src={LiveDefinedImage} alt="Live Defined Co" placeholder="blur" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />}
                             heading={"Live Defined Co"}
                             subheading={"Website Design + Website Maintenance"}
@@ -101,15 +113,15 @@ const IndexPage = () => {
                         <PortfolioItem
                             image={<Image src={CSFImage} alt="Christian Student Fellowship" placeholder="blur" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />}
                             heading={"Christian Student Fellowship"}
-                            subheading={"YouTube SEO + Website Design"}
+                            subheading={"Website Design + YouTube SEO + SEO"}
                             links={[
-                                {
-                                    link: "https://www.youtube.com/channel/UC6e76TemyDULPBQ-9Kc2zMw",
-                                    text: "YouTube Channel"
-                                },
                                 {
                                     link: "https://csfiupui.com/",
                                     text: "Website"
+                                },
+                                {
+                                    link: "https://www.youtube.com/channel/UC6e76TemyDULPBQ-9Kc2zMw",
+                                    text: "YouTube Channel"
                                 }
                             ]}
                         />
