@@ -1,3 +1,5 @@
+"use client"
+
 import * as React from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,7 +11,6 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 // Components
 import Layout from "../components/Layout";
 import PortfolioItem from "../components/PortfolioItem";
-import Seo from "../components/Seo";
 
 // Images
 import LaptopImage from "../images/laptop.jpg";
@@ -20,10 +21,9 @@ import MPCCImage from "../images/portfolio/mpcc.jpg";
 import RoughTerrainStudiosImage from "../images/portfolio/rough-terrain-studios.jpg";
 import CenterGroveChoirsImage from "../images/portfolio/cg-choirs.jpg";
 
-const IndexPage = () => {
+export default function HomePage() {
     return (
         <Layout>
-            <Seo />
             {/* Hero Section */}
             <div className="bg-brand-secondary py-5 hero" id="home">
                 <div className="container mw-100 px-4 px-md-5 hero-container d-flex justify-content-center">
@@ -183,5 +183,3 @@ const IndexPage = () => {
         </Layout>
     );
 };
-
-export default IndexPage;
