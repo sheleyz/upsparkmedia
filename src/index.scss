@@ -1,10 +1,3 @@
-@font-face {
-    font-family: Asap;
-    src: url("https://upsparkmedia.com/fonts/Asap/Asap-VariableFont_wght.ttf") format("truetype");
-    font-weight: 400 700;
-    font-display: swap;
-}
-
 :root {
     /*** UpSpark Media Variables ***/
     --upspark-primary: #ffbf00;
@@ -18,12 +11,12 @@
     --upspark-grey: #C9C9C9;
     --upspark-grey-dark: #6c757d;
 
-    --bs-font-sans-serif: Asap, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --bs-body-bg: #003b60;
 }
 
-html {
+html, body {
     background-color: var(--upspark-secondary);
+    font-family: var(--font-asap), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .bg-brand-secondary {

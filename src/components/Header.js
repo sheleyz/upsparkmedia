@@ -1,4 +1,3 @@
-import * as React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -9,9 +8,9 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 // Images
 import UpSparkMediaLogo from "../images/upsparkmedia/upspark-media-logo.png"
 
-const Header = () => {
+export default function Header() {
     return (
-        <Navbar bg="brand-secondary" collapseOnSelect expand="md" className="py-3" variant="dark" fixed="top">
+        <Navbar bg="brand-secondary" collapseOnSelect expand="md" className="py-3" data-bs-theme="dark" fixed="top">
             <Container className="px-4 px-md-5 mw-100">
                 <Navbar.Brand href="/">
                     <Image src={UpSparkMediaLogo} alt="UpSpark Media logo" width={190} height={43} priority />
@@ -39,6 +38,4 @@ const Header = () => {
             </Container>
         </Navbar>
     );
-};
-
-export default Header;
+}

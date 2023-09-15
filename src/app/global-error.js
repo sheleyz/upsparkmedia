@@ -1,7 +1,5 @@
 "use client";
 
-import * as React from "react";
-
 // Components
 import Layout from "../components/Layout";
 

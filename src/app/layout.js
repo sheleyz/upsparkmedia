@@ -3,13 +3,19 @@ import "../index.scss";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
+import localFont from "next/font/local";
 import Script from "next/script";
-import ReactDOM from "react-dom";
+
+const asap = localFont({
+    src: "./fonts/Asap/Asap-VariableFont_wght.ttf",
+    display: "swap",
+    variable: "--font-asap"
+});
 
 export const metadata = {
     title: "UpSpark Media - Web Design and YouTube SEO",
     description: "We optimize your website or YouTube channel to increase your visibility and potential for growth online.",
-    image: "https://upsparkmedia.com/favicon.png",
+    image: "./icon.png",
     themeColor: "#003b60",
     metadataBase: new URL("https://upsparkmedia.com"),
 
@@ -18,7 +24,7 @@ export const metadata = {
         description: "We optimize your website or YouTube channel to increase your visibility and potential for growth online.",
         url: "https://upsparkmedia.com",
         siteName: "UpSpark Media - Web Design and YouTube SEO",
-        images: ["https://upsparkmedia.com/favicon.png"],
+        images: ["./icon.png"],
         locale: "en_US",
         type: "website"
     },
@@ -27,13 +33,13 @@ export const metadata = {
         card: "summary",
         title: "UpSpark Media - Web Design and YouTube SEO",
         description: "We optimize your website or YouTube channel to increase your visibility and potential for growth online.",
-        images: ["https://upsparkmedia.com/favicon.png"],
+        images: ["./icon.png"],
         url: "https://upsparkmedia.com"
     },
 
     icons: {
-        icon: "https://upsparkmedia.com/favicon.png",
-        shortcut: "https://upsparkmedia.com/favicon.png"
+        icon: "./icon.png",
+        shortcut: "./icon.png"
     },
 
     verification: {
@@ -45,10 +51,9 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-    ReactDOM.preload("https://upsparkmedia.com/fonts/Asap/Asap-VariableFont_wght.ttf", { as: "font", type: "font/ttf", crossOrigin: "anonymous", key: "asapFont" });
     return (
         <html lang="en-US">
-            <body>{children}</body>
+            <body className={asap.variable}>{children}</body>
             {/* Pixel Code for https://app.tinyanalytics.io/ */}
             <Script src="https://app.tinyanalytics.io/pixel/iKK3di9WSWyeSwWO" />
         </html>

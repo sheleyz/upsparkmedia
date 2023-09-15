@@ -1,9 +1,8 @@
-import * as React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
-const Footer = () => {
+export default function Footer() {
     return (
         <footer className="bg-brand-secondary text-white">
             <div className="container px-4 px-lg-5 pt-4">
@@ -22,6 +21,4 @@ const Footer = () => {
             </div>
         </footer>
     );
-};
-
-export default Footer;
+}
