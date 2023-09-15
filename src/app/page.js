@@ -13,6 +13,7 @@ import PortfolioItem from "../components/PortfolioItem";
 
 // Images
 import LaptopImage from "../images/laptop.jpg";
+import CrowbarRestaurantImage from "../images/portfolio/crowbar-restaurant.jpg";
 import OGWEnergyResourcesImage from "../images/portfolio/ogw-energy-resources.jpg";
 import LiveDefinedImage from "../images/portfolio/live-defined.jpg";
 import CSFImage from "../images/portfolio/csf-iupui.jpg";
@@ -87,6 +88,17 @@ export default async function Home() {
                 <div className="container mw-100 px-4 px-md-5">
                     <h2 className="section-heading text-center text-white">Portfolio</h2>
                     <div className="row mt-5 d-flex">
+                        <PortfolioItem
+                            image={<Image src={CrowbarRestaurantImage} alt="Crowbar Restaurant" placeholder="blur" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />}
+                            heading={"Crowbar Restaurant"}
+                            subheading={"Website Design + Website Maintenance"}
+                            links={[
+                                {
+                                    link: "https://crowbar.pub/",
+                                    text: "Website"
+                                }
+                            ]}
+                        />
                         <PortfolioItem
                             image={<Image src={OGWEnergyResourcesImage} alt="OGW Energy Resources" placeholder="blur" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />}
                             heading={"OGW Energy Resources"}
