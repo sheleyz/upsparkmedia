@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 // Images
-import UpSparkMediaLogo from "../images/upsparkmedia/upspark-media-logo.png"
+import UpSparkMediaLogo from "../images/upsparkmedia/upspark-media-logo.png";
 
 export default function Header() {
     return (
@@ -14,18 +14,6 @@ export default function Header() {
             <Container className="px-4 px-md-5 mw-100">
                 <Navbar.Brand href="/">
                     <Image src={UpSparkMediaLogo} alt="UpSpark Media logo" width={190} height={43} priority />
-                    {/* <StaticImage
-                        src="../images/upsparkmedia/upspark-media-logo.png"
-                        alt="UpSpark Media logo"
-                        className="d-inline-block align-top"
-                        width={190}
-                        height={43}
-                        layout="fixed"
-                        placeholder="transparent"
-                        loading="eager"
-                        imgStyle={{ transform: "none", transition: "none", willChange: "unset" }}
-                        style={{ transition: "none" }}
-                    /> */}
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbar-nav" className="p-0"><FontAwesomeIcon icon={faBars} size="xl" fixedWidth /></Navbar.Toggle>
                 <Navbar.Collapse id="navbar-nav" className="my-2 my-md-0">
