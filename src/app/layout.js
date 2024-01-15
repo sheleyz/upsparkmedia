@@ -16,7 +16,6 @@ export const metadata = {
     title: "UpSpark Media - Web Design and YouTube SEO",
     description: "We optimize your website or YouTube channel to increase your visibility and potential for growth online.",
     image: "./icon.png",
-    themeColor: "#003b60",
     metadataBase: new URL("https://upsparkmedia.com"),
 
     openGraph: {
