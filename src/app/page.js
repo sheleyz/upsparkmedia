@@ -30,7 +30,7 @@ export default async function Home() {
                     <div className="row gx-0 align-items-center justify-content-center">
                         <div className="col-md-6 px-0">
                             <div className="heroText my-5">
-                                <h1 className="display-5 fw-bolder text-white mb-2">Increase your growth potential online</h1>
+                                <h1 className="display-5 text-white mb-2">Increase your growth potential online</h1>
                                 <p className="lead fw-normal text-grey mb-4">We optimize your website or YouTube channel to increase your visibility and potential for growth online.</p>
                                 <div className="d-flex">
                                     <a className="btn btn-outline-brand-primary btn-lg px-4" href="#services">
