@@ -128,7 +128,11 @@ h2 {
             color: var(--upspark-primary);
         }
 
-        @media (min-width: 768px) {
+        &:last-of-type {
+            padding-right: 0px;
+        }
+
+        @media (min-width: 576px) {
             --bs-nav-link-padding-y: 0rem;
         }
     }
@@ -184,6 +188,10 @@ h2 {
 
     a {
         color: var(--upspark-secondary);
+
+        &:hover {
+            color: var(--upspark-dark)
+        }
     }
 }
 
@@ -222,7 +230,10 @@ h2 {
     max-width: 600px;
 }
 
-footer a,
-footer a:hover {
+footer a {
     color: inherit;
+
+    &:hover {
+        color: var(--upspark-grey);
+    }
 }
