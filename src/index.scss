@@ -128,14 +128,31 @@ h2 {
             color: var(--upspark-primary);
         }
 
+        &:first-of-type {
+            padding-top: 15px;
+        }
+
         &:last-of-type {
             padding-right: 0px;
+            padding-bottom: 5px;
         }
 
         @media (min-width: 576px) {
             --bs-nav-link-padding-y: 0rem;
+
+            &:first-of-type {
+                padding-top: inherit;
+            }
+
+            &:last-of-type {
+                padding-bottom: inherit;
+            }
         }
     }
+}
+
+.navbar-brand {
+    padding: 0px;
 }
 
 .navbar-toggler {
