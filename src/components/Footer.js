@@ -15,8 +15,8 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-            <div className="text-center pt-3 fs-5 fw-semibold">UpSpark Media</div>
-            <div className="text-center pt-2 fw-normal">
+            <div className="brandName text-center pt-3 fs-5">UpSpark Media</div>
+            <div className="text-center pt-2">
                 <p>Created by <a href="https://zachsheley.com/" target="_blank" rel="noopener noreferrer">Zach Sheley</a></p>
             </div>
         </footer>

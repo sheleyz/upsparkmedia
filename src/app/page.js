@@ -178,7 +178,7 @@ export default async function Home() {
                 <div className="container mw-100 px-4 px-md-5">
                     <div className="row justify-content-center">
                         <h2 className="mt-0 text-center">Let's Talk!</h2>
-                        <p className="brand-text-grey fs-5 mt-5 mb-4">
+                        <p className="brand-text-grey fs-5 my-4">
                             Ready to start your next project or have a few questions first? Contact us using the form below and we will get back to you as soon as possible!
                         </p>
                     </div>
