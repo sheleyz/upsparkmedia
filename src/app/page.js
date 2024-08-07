@@ -127,7 +127,7 @@ export default async function Home() {
                             subheading={"Website Design + YouTube SEO + SEO"}
                             links={[
                                 {
-                                    link: "https://csfiupui.com/",
+                                    link: "https://csfindy.com/",
                                     text: "Website"
                                 },
                                 {
