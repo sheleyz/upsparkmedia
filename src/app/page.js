@@ -21,7 +21,7 @@ import MPCCImage from "../images/portfolio/mpcc.jpg";
 import RoughTerrainStudiosImage from "../images/portfolio/rough-terrain-studios.jpg";
 import CenterGroveChoirsImage from "../images/portfolio/cg-choirs.jpg";
 
-export default async function Home() {
+export default function Home() {
     return (
         <Layout>
             {/* Hero Section */}
