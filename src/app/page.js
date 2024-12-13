@@ -17,9 +17,6 @@ import CrowbarRestaurantImage from "../images/portfolio/crowbar-restaurant.jpg";
 import OGWEnergyResourcesImage from "../images/portfolio/ogw-energy-resources.jpg";
 import LiveDefinedImage from "../images/portfolio/live-defined.jpg";
 import CSFImage from "../images/portfolio/csf-iupui.jpg";
-import MPCCImage from "../images/portfolio/mpcc.jpg";
-import RoughTerrainStudiosImage from "../images/portfolio/rough-terrain-studios.jpg";
-import CenterGroveChoirsImage from "../images/portfolio/cg-choirs.jpg";
 
 export default function Home() {
     return (
@@ -133,39 +130,6 @@ export default function Home() {
                                 {
                                     link: "https://www.youtube.com/channel/UC6e76TemyDULPBQ-9Kc2zMw",
                                     text: "YouTube Channel"
-                                }
-                            ]}
-                        />
-                        <PortfolioItem
-                            image={<Image src={MPCCImage} alt="Mount Pleasant Christian Church" placeholder="blur" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />}
-                            heading={"Mount Pleasant Christian Church"}
-                            subheading={"YouTube SEO"}
-                            links={[
-                                {
-                                    link: "https://www.youtube.com/@MountPleasantChristianChurch",
-                                    text: "YouTube Channel"
-                                }
-                            ]}
-                        />
-                        <PortfolioItem
-                            image={<Image src={RoughTerrainStudiosImage} alt="Rough Terrain Studios" placeholder="blur" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />}
-                            heading={"Rough Terrain Studios"}
-                            subheading={"YouTube SEO"}
-                            links={[
-                                {
-                                    link: "https://www.youtube.com/channel/UCh16fC0-zzcdRHcTWKYJurg",
-                                    text: "YouTube Channel"
-                                }
-                            ]}
-                        />
-                        <PortfolioItem
-                            image={<Image src={CenterGroveChoirsImage} alt="Center Grove Choirs" placeholder="blur" className="centerImage" sizes="(min-width: 992px) 33.33333333%, (min-width: 768px) 50%, 100%" />} //center
-                            heading={"Center Grove Choirs"}
-                            subheading={"Website Maintenance"}
-                            links={[
-                                {
-                                    link: "https://centergrovechoirs.org/",
-                                    text: "Website"
                                 }
                             ]}
                         />
