@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
@@ -7,9 +6,6 @@ export default function Footer() {
         <footer className="bg-brand-secondary text-white">
             <div className="container px-4 px-lg-5 pt-4">
                 <div className="text-center">
-                    <a className="btn btn-social mx-2 my-3" href="https://twitter.com/upsparkmedia" target="_blank" rel="noopener noreferrer" title="UpSpark Media Twitter">
-                        <FontAwesomeIcon icon={faTwitter} size="3x" fixedWidth />
-                    </a>{" "}
                     <a className="btn btn-social mx-2 my-3" href="https://instagram.com/upspark.media" target="_blank" rel="noopener noreferrer" title="UpSpark Media Instagram">
                         <FontAwesomeIcon icon={faInstagram} size="3x" fixedWidth />
                     </a>
