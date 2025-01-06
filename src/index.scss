@@ -1,47 +1,35 @@
-:root {
-    /*** UpSpark Media Variables ***/
-    --upspark-primary: #ffbf00;
-    --upspark-secondary: #003b60;
-    --upspark-light: #eaebed;
-    --upspark-dark: #242424;
-    --upspark-alternate: #ffe800;
+@use "./global" as *;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-    --upspark-primary-dark: #E3AA00;
-    --upspark-secondary-dark: #002a45;
-    --upspark-grey: #C9C9C9;
-    --upspark-grey-dark: #6c757d;
-
-    --bs-body-bg: #003b60;
-}
-
-html, body {
-    background-color: var(--upspark-secondary);
+html,
+body {
+    background-color: $upspark-secondary;
     font-family: var(--font-asap), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-stretch: 100%;
 }
 
 .bg-brand-secondary {
-    background-color: var(--upspark-secondary);
+    background-color: $upspark-secondary;
 }
 
 .bg-brand-light {
-    background-color: var(--upspark-light);
+    background-color: $upspark-light;
 }
 
 .text-grey {
-    color: var(--upspark-grey);
+    color: $upspark-grey;
 }
 
 .text-brand-light {
-    color: var(--upspark-light);
+    color: $upspark-light;
 }
 
 .text-brand-secondary {
-    color: var(--upspark-secondary);
+    color: $upspark-secondary;
 }
 
 .text-grey-dark {
-    color: var(--upspark-grey-dark);
+    color: $upspark-grey-dark;
 }
 
 h1 {
@@ -52,7 +40,8 @@ h2 {
     font-size: 1.75rem;
 }
 
-h4, .h4 {
+h4,
+.h4 {
     font-size: 1.3rem;
 }
 
@@ -85,37 +74,37 @@ h4, .h4 {
 }
 
 .btn-outline-brand-primary {
-    color: var(--upspark-primary) !important;
-    border-color: var(--upspark-primary) !important;
+    color: $upspark-primary !important;
+    border-color: $upspark-primary !important;
 
     &:hover,
     &:active {
-        color: var(--upspark-secondary) !important;
-        border-color: var(--upspark-primary) !important;
-        background-color: var(--upspark-primary) !important;
+        color: $upspark-secondary !important;
+        border-color: $upspark-primary !important;
+        background-color: $upspark-primary !important;
     }
 
     &:focus,
     &:focus-visible {
-        box-shadow: 0 0 0 0.25rem var(--upspark-secondary-dark);
+        box-shadow: 0 0 0 0.25rem $upspark-secondary-dark;
     }
 }
 
 .btn-brand-primary {
-    color: var(--upspark-secondary) !important;
-    background-color: var(--upspark-primary) !important;
+    color: $upspark-secondary !important;
+    background-color: $upspark-primary !important;
 
     &:hover,
     &:active {
-        color: var(--upspark-secondary-dark) !important;
-        background-color: var(--upspark-primary-dark) !important;
+        color: $upspark-secondary-dark !important;
+        background-color: $upspark-primary-dark !important;
     }
 
     &:focus,
     &:focus-visible {
-        color: var(--upspark-secondary-dark) !important;
-        background-color: var(--upspark-primary-dark) !important;
-        box-shadow: 0 0 0 0.25rem var(--upspark-secondary-dark);
+        color: $upspark-secondary-dark !important;
+        background-color: $upspark-primary-dark !important;
+        box-shadow: 0 0 0 0.25rem $upspark-secondary-dark;
     }
 }
 
@@ -127,14 +116,14 @@ h4, .h4 {
         --bs-nav-link-padding-y: 0.75rem;
         font-weight: 600;
         font-size: 1.1rem;
-        color: var(--upspark-light);
+        color: $upspark-light;
 
         &.active {
-            color: var(--upspark-primary);
+            color: $upspark-primary;
         }
 
         &:hover {
-            color: var(--upspark-primary);
+            color: $upspark-primary;
         }
 
         &:first-of-type {
@@ -166,10 +155,10 @@ h4, .h4 {
 
 .navbar-toggler {
     border: none;
-    color: var(--upspark-primary);
+    color: $upspark-primary;
 
     &.collapsed {
-        color: var(--upspark-light);
+        color: $upspark-light;
     }
 
     &:focus {
@@ -189,7 +178,7 @@ h4, .h4 {
 
 .portfolio-item {
     object-fit: cover;
-    box-shadow: 0px 5px 10px var(--upspark-dark);
+    box-shadow: 0px 5px 10px $upspark-dark;
 
     .imageWrapper {
         height: 200px;
@@ -213,10 +202,10 @@ h4, .h4 {
     border-top: 2px solid #EBEBEB;
 
     a {
-        color: var(--upspark-secondary);
+        color: $upspark-secondary;
 
         &:hover {
-            color: var(--upspark-dark)
+            color: $upspark-dark;
         }
     }
 }
@@ -228,7 +217,7 @@ h4, .h4 {
 }
 
 .btn-social {
-    color: var(--upspark-light) !important;
+    color: $upspark-light !important;
     height: 2.5rem;
     width: 2.5rem;
     display: inline-flex;
@@ -239,7 +228,7 @@ h4, .h4 {
 
     &:hover,
     &:active {
-        color: var(--upspark-primary) !important;
+        color: $upspark-primary !important;
     }
 }
 
@@ -260,7 +249,7 @@ footer a {
     color: inherit;
 
     &:hover {
-        color: var(--upspark-grey);
+        color: $upspark-grey;
     }
 }
 
