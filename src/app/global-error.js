@@ -1,7 +1,7 @@
 "use client";
 
 // Components
-import Layout from "../components/Layout";
+import Layout from "../components/branding/Layout";
 
 export default function GlobalError({ error, reset }) {
     return (

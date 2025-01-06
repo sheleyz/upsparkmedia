@@ -8,8 +8,8 @@ import { faUserGear } from "@fortawesome/free-solid-svg-icons";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 // Components
-import Layout from "../components/Layout";
-import PortfolioItem from "../components/PortfolioItem";
+import Layout from "../components/branding/Layout";
+import PortfolioItem from "../components/portfolio/PortfolioItem";
 
 // Images
 import LaptopImage from "../images/laptop.jpg";

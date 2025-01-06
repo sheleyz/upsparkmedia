@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 // Images
-import UpSparkMediaLogo from "../images/upsparkmedia/upspark-media-logo.png";
+import UpSparkMediaLogo from "../../images/upsparkmedia/upspark-media-logo.png";
 
 export default function Header() {
     return (
