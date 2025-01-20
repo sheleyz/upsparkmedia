@@ -148,7 +148,7 @@ export default function Home() {
                     </div>
                     <div className="row justify-content-center">
                         <div className="text-center">
-                            <a className="btn btn-brand-primary btn-lg px-4 disabled border-0" href="#" target="_blank" rel="noopener noreferrer">
+                            <a className="btn btn-brand-secondary btn-lg px-4 disabled border-0" href="#" target="_blank" rel="noopener noreferrer">
                                 Contact Us
                             </a>
                         </div>

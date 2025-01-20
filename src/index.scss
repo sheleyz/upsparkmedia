@@ -82,20 +82,20 @@ h4,
     }
 }
 
-.btn-brand-primary {
-    color: $upspark-secondary !important;
-    background-color: $upspark-primary !important;
+.btn-brand-secondary {
+    color: $upspark-light !important;
+    background-color: $upspark-secondary !important;
 
     &:hover,
     &:active {
-        color: $upspark-secondary-dark !important;
-        background-color: $upspark-primary-dark !important;
+        color: $upspark-grey !important;
+        background-color: $upspark-secondary-dark !important;
     }
 
     &:focus,
     &:focus-visible {
-        color: $upspark-secondary-dark !important;
-        background-color: $upspark-primary-dark !important;
+        color: $upspark-grey !important;
+        background-color: $upspark-secondary-dark !important;
         box-shadow: 0 0 0 0.25rem $upspark-secondary-dark;
     }
 }
