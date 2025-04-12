@@ -5,7 +5,7 @@
   "description": "UpSpark Media",
   "author": "sheleyz",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start"
   },
@@ -15,11 +15,11 @@
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "bootstrap": "^5.3.3",
-    "next": "^15.1.5",
-    "react": "^19.0.0",
-    "react-bootstrap": "^2.10.7",
-    "react-dom": "^19.0.0",
-    "sass": "^1.83.4"
+    "bootstrap": "^5.3.5",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.1.0",
+    "sass": "^1.86.3"
   }
 }
