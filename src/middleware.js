@@ -20,8 +20,7 @@ export function middleware(request) {
         userAgent === "AhrefsBot" ||
         userAgent === "Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)" ||
         userAgent === "Mozilla/5.0 (compatible; AhrefsSiteAudit/6.1; +http://ahrefs.com/robot/site-audit)" ||
-        userAgent ===
-            "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36 (compatible; AhrefsSiteAudit/6.1; +http://ahrefs.com/robot/site-audit)"
+        userAgent === "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36 (compatible; AhrefsSiteAudit/6.1; +http://ahrefs.com/robot/site-audit)"
     ) {
         request.nextUrl.pathname = "/";
     } else if (country !== "US") {

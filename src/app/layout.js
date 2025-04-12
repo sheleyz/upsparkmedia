@@ -12,32 +12,32 @@ const asap = localFont({
 });
 
 export const metadata = {
-    title: "UpSpark Media - Web Design and YouTube SEO",
+    title: {
+        template: "%s | UpSpark Media - Web Design and YouTube SEO",
+        default: "UpSpark Media - Web Design and YouTube SEO"
+    },
     description: "We optimize your website or YouTube channel to increase your visibility and potential for growth online.",
-    image: "./icon.png",
     metadataBase: new URL("https://upsparkmedia.com"),
 
     openGraph: {
-        title: "UpSpark Media - Web Design and YouTube SEO",
+        title: {
+            template: "%s | UpSpark Media - Web Design and YouTube SEO",
+            default: "UpSpark Media - Web Design and YouTube SEO"
+        },
         description: "We optimize your website or YouTube channel to increase your visibility and potential for growth online.",
-        url: "https://upsparkmedia.com",
+        url: "/",
         siteName: "UpSpark Media - Web Design and YouTube SEO",
-        images: ["./icon.png"],
         locale: "en_US",
         type: "website"
     },
 
     twitter: {
         card: "summary",
-        title: "UpSpark Media - Web Design and YouTube SEO",
-        description: "We optimize your website or YouTube channel to increase your visibility and potential for growth online.",
-        images: ["./icon.png"],
-        url: "https://upsparkmedia.com"
-    },
-
-    icons: {
-        icon: "./icon.png",
-        shortcut: "./icon.png"
+        title: {
+            template: "%s | UpSpark Media - Web Design and YouTube SEO",
+            default: "UpSpark Media - Web Design and YouTube SEO"
+        },
+        description: "We optimize your website or YouTube channel to increase your visibility and potential for growth online."
     },
 
     verification: {
