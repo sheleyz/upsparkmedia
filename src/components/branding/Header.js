@@ -3,8 +3,6 @@
 import { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import styles from "./branding.module.scss";
 
 // Images
@@ -22,7 +20,9 @@ export default function Header() {
                     <Image src={UpSparkMediaLogo} alt="UpSpark Media logo" width={178} height={40} priority />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbar-nav" className={`${collapsed ? `${styles["collapsed"]}` : ``} ${styles["navbar-toggler"]} p-0`} onClick={handleClick}>
-                    <FontAwesomeIcon icon={faBars} size="lg" fixedWidth />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
+                        <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                    </svg>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="navbar-nav" className="mt-2 mt-sm-0">
                     <Nav className="ms-auto">
