@@ -88,7 +88,7 @@ export default function HomePage() {
                             </div>
                         </div>
                         <div className="heroImage col-md-6 d-none d-md-block text-center">
-                            <Image src={LaptopImage} alt="Laptop" placeholder="blur" priority={true} className="rounded-3" />
+                            <Image src={LaptopImage} alt="Laptop" placeholder="blur" priority={true} className="rounded-3 d-none d-md-block" />
                         </div>
                     </div>
                 </div>
