@@ -49,8 +49,6 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en-US">
             <body className={asap.variable}>{children}</body>
-            {/* Pixel Code for https://app.tinyanalytics.io/ */}
-            <Script src="https://app.tinyanalytics.io/pixel/iKK3di9WSWyeSwWO" />
         </html>
     );
 }
