@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import Script from "next/script";
 
 const asap = localFont({
-    src: "./fonts/Asap/Asap-VariableFont_wght.ttf",
+    src: "./fonts/Asap/Asap-VariableFont_wght.woff2",
     display: "swap",
     variable: "--font-asap"
 });
