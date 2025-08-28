@@ -1,6 +1,5 @@
 import "../index.scss";
 import localFont from "next/font/local";
-import Script from "next/script";
 
 const asap = localFont({
     src: "./fonts/Asap/Asap-VariableFont_wght.woff2",
